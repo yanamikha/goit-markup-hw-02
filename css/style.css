@@ -6,6 +6,11 @@
   --primary-font: "Raleway", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
+
+pre{
+  font-family:none;
+}
+
 main {
   font-family: var(--secondary-font);
 }
@@ -17,7 +22,7 @@ main {
 .logo {
   font-family: var(--primary-font);
   font-weight: 700;
-  size: 26px;
+  font-size: 26px;
   line-height: 1.174;
   text-decoration: none;
 }
@@ -36,6 +41,10 @@ footer .logo-right-part {
 }
 header .logo-right-part {
   color: var(--black-color);
+}
+.navigation-list,
+.contact {
+  font-family: var(--secondary-font);
 }
 .navigation-list .item {
   text-decoration: none;
@@ -130,6 +139,9 @@ h2 {
 .current-page {
   color: var(--accent-color);
 }
+button{
+  font: unset;
+}
 .buttons-list button {
   background-color: var(--light-gray-color);
   border-radius: 4px;
@@ -196,4 +208,6 @@ footer .right-part,
 }
 footer .address-item {
   color: rgba(255, 255, 255, 0.6);
+  font-family: var(--secondary-font);
 }
+
