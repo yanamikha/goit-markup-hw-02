@@ -6,11 +6,13 @@
   --primary-font: "Raleway", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
-
-pre{
-  font-family:none;
+button {
+  font-family: var(--secondary-font);
+  font-weight: 500;
 }
-
+pre {
+  font-family: var(--secondary-font);
+}
 main {
   font-family: var(--secondary-font);
 }
@@ -26,10 +28,7 @@ main {
   line-height: 1.174;
   text-decoration: none;
 }
-.logo:hover,
-.logo:focus {
-  text-decoration: underline var(--accent-color);
-}
+
 .logo-left-part {
   color: var(--accent-color);
 }
@@ -127,7 +126,7 @@ h2 {
 }
 .address-item {
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
@@ -139,9 +138,7 @@ h2 {
 .current-page {
   color: var(--accent-color);
 }
-button{
-  font: unset;
-}
+
 .buttons-list button {
   background-color: var(--light-gray-color);
   border-radius: 4px;
@@ -193,7 +190,7 @@ button{
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  font-style: normal;
+  font-family: var(--secondary-font);
 }
 footer {
   background-color: #2f303a;
@@ -206,8 +203,10 @@ footer .right-part,
 .location {
   color: #ffffff;
 }
+address {
+  font-style: unset;
+}
 footer .address-item {
   color: rgba(255, 255, 255, 0.6);
   font-family: var(--secondary-font);
 }
-
